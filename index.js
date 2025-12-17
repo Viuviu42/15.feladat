@@ -18,7 +18,7 @@ const data = {
     "picture" : "pictures/512px-Bust_of_Mihály_Munkácsy_in_the_Szeged_Pantheon.jpg"
   }
 }
-
+///https://commons.wikimedia.org/wiki/Category%3ANational_Pantheon_in_Szeged
 if (localStorage.length === 0) {
     for (const name in data) {
     localStorage.setItem(name, JSON.stringify(data[name]));
